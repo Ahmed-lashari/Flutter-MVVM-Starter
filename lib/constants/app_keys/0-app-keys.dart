@@ -1,5 +1,5 @@
-import 'package:mvvm_architecture/constants/app_keys/feature-1.dart';
-import 'package:mvvm_architecture/constants/app_keys/feature-2.dart';
+import 'feature-1.dart';
+import 'feature-2.dart';
 
 class AppKeys {
   Feature1 feature1 = Feature1();
