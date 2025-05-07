@@ -1,13 +1,11 @@
-import 'package:flutter/material.dart';
-
 class Utils {
-  double getHeight(BuildContext context) {
-    return MediaQuery.of(context).size.height;
-  }
+  // double getHeight(BuildContext context) {
+  //   return MediaQuery.of(context).size.height;
+  // }
 
-  double getWeidth(BuildContext context) {
-    return MediaQuery.of(context).size.width;
-  }
+  // double getWeidth(BuildContext context) {
+  //   return MediaQuery.of(context).size.width;
+  // }
 }
 
 
