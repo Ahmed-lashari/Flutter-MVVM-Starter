@@ -1,7 +1,7 @@
-import 'feature_1.dart';
-import 'feature_2.dart';
+import 'drop_down_keys.dart';
+import 'hero_keys.dart';
 
 class AppKeys {
-  Feature1 feature1 = Feature1();
-  Feature2 feature2 = Feature2();
+  DropDownKeys dropDownKeys = DropDownKeys();
+  HeroKeys heroKeys = HeroKeys();
 }

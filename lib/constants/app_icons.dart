@@ -1,9 +1,22 @@
 class AppStaticIcons {
-  // final IconData homeIcon = Icons.home;
-  // final IconData settingIcon = Icons.settings;
+  // static const IconData person = Icons.home; // home
+  // static const IconData email = Icons.mail; // email
+  // static const IconData password = Icons.lock; // password
 }
 
-class AppSvgIcons {
-  final String homeIcon = 'assets/icons/home.svg';
-  final String settingIcon = 'assets/icons/setting.svg';
+// update paths accordingly
+class AppImageIcons {
+  // home tabs icons
+  static const String home = "assets/arrows/home.png";
+  static const String notification = "assets/arrows/notification.png";
+  static const String profile = "assets/arrows/profile.png";
+
+  // arrows
+  static const String downarrow = "assets/arrows/down-arrow.png";
+  static const String rightarrow = "assets/arrows/right-arrow.png";
+  static const String leftarrow = "assets/arrows/left-arrow.png";
+  static const String uparrow = "assets/arrows/up-arrow.png";
+
+  // APP LOGO
+  static const String appLogo = "assets/skility_x_icon/skility_x.png";
 }
