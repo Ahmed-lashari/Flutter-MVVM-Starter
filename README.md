@@ -1,9 +1,6 @@
 # 🧠 MVVM Flutter Architecture Starter
 
 A well-structured **Flutter MVVM (Model-View-ViewModel)** mockup to kickstart scalable, maintainable, and enterprise-ready mobile apps. This repository is designed with **clean separation of concerns**, leveraging best practices that make collaboration and long-term development sustainable.
-
-> ✅ Project built with Flutter **v3.27.3**, Dart **v3.6.1**, and DevTools **v2.40.2**
-
 ---
 
 ## 🚀 Features
@@ -97,14 +94,14 @@ lib/
 
 ## 🛠️ Getting Started
 
-### Option 1: Clone the Whole Repository
+### Clone the Whole Repository
 
 ```bash
 cd proj-name
 
-git clone https://github.com/ahmed-khan/flutter-mvvm-architecture.git
+git clone https://github.com/Ahmed-lashari/Flutter-MVVM-Starter.git
 
-# Replace `lib/` in your Flutter project with the one from this repo.
+# Replace `lib/` &  `pubspec.yaml` in your Flutter project with the one from this cloned repo.
 
 flutter pub get
 
