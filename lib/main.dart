@@ -10,7 +10,8 @@ void main() async {
   // initilizing dependencies
   await InitDependencies.initBootStrap();
 
-  await runApp(child: const MyApp());
+  await SystemChrome.setPreferredOrientations([DeviceOrientation.portraitUp])
+      .then((_) => runApp(const MyApp()));
 }
 
 class MyApp extends StatefulWidget {
